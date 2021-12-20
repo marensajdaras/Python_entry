@@ -1,0 +1,13 @@
+# you can create a string only by enclosing characters in quotes.
+string1 = "Python"
+string2 = "Programming Language"
+#Strings are immutable but you can access them by slicing with the index or indices to obtain.
+print(string1[0])
+# This will print only the char "P"
+# There are some non-printable characters that are near backslash
+# \a \b \cx \C-x \e \f \M-\C-x \n \nnn
+# \r \s \t \v \x \xnn
+# Membership
+a = [1,2,34]
+print(1 not in a)
+# above will print False cause 1 is in a
