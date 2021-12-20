@@ -1,0 +1,21 @@
+a = 'maren sajdaras'
+print(a.capitalize()) # Only the first char is capitalize
+print(a.count('m'))  # outputs the number of times 'm' is in string a
+print(a.endswith('sajdaras')) # print true because string ends with sajdaras
+print(a.find(maren)) # will print the index if the substring is found in string otherwise will print -1
+print(a.index(maren)) # is the same as find but in that case it will raise an exception if it is not found
+print(a.isalnum()) # will print False because it has an space 
+print(a.isalpha()) # will print False because it has an space isalpha output True if and only stirng has only chars
+print(a.isdigit()) # will return True if the string is only with numbers indeed
+print(a.islower()) # will return True if all the chars are in lower
+print(a.isupper()) # same as islower()
+print(a.isspace()) # checks whether the string consists of whitespace
+
+# important method 
+# join method return a strng in which elements of sequence have been joined by str separator
+print(' '.join(list(a))) # this will print a but with spaces between chars
+print(len(a)) # return the length of the string
+print(a.lower()) # return the string but everything is lowercase
+
+
+
