@@ -1,0 +1,8 @@
+# You must have in mind that the tuples are immutable
+t = (1,3,4) # this is a tuple
+# access tuples by indexing
+print(t[0]) # but you cannot change the element of the tuple
+#convert to a tuple
+sequence = ['could be list ', 'or', 'anything else that is similar to list']
+tuple(sequence)
+
