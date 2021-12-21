@@ -1,0 +1,13 @@
+python = ['object-oriented' , 'high-level'] # this is a list 
+# lists are mutable
+# to delete an element of a list you can use del but be careful because after deleting the element the index of the right values will be decreases by one.
+del python[1]
+# max and min funct
+a = [1,2,3]
+print(max(a))
+# list methods
+a.append(4)
+a.insert([1,3,3,4])
+a.pop()
+a.index(1)
+a.count(1)
