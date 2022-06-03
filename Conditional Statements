@@ -17,5 +17,12 @@ elif abs(x) - 2 < 10:
 else:
   print('You are wrong and not near!')
   
+# conditional statement but a loop this time
+x = 1
+while x < 5:
+  print('Try to add 1, you maybe arrive this time.')
+  x += 1
+# It willl print 4 times the expression above  
+
 
   
