@@ -1,0 +1,6 @@
+# this way we create a file
+class name_of_class_uppercase():
+  def __init__(self,...):   # constructor
+    self.... = ...
+# after that we create a object of the class or an instance is our choice how we call it
+Object = name_of_class_uppercase(...)   # in three points we enter the attributes 
