@@ -1,0 +1,14 @@
+# how to open a file
+f = open("name_of_file.txt","r") # we open in read mode which do not let us to change anything 
+# here we can read file and loop over the lines of file which are all strings or characters 
+for i in f:
+  print(i) # we print each line of file
+f.close() # here we close the file 
+
+# another way 
+with open("name_of_file.txt",'r') as f:   # that way we do not need to use f.close() 
+  ...
+  
+# we can use 'w' to write in file and change things, 'a' to append in file and so on   
+  
+  
