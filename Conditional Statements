@@ -1,0 +1,21 @@
+# conditional statements 
+# if else 
+x = input()
+if (1+1) == x:
+  print('Yes you are right!')
+else:
+  print('No you are not!')
+
+
+
+# if elif else 
+x = input()
+if x == 2:
+  print('You are right!')
+elif abs(x) - 2 < 10:
+  print('You are near!!')
+else:
+  print('You are wrong and not near!')
+  
+
+  
