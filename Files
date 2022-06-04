@@ -11,4 +11,4 @@ with open("name_of_file.txt",'r') as f:   # that way we do not need to use f.clo
   
 # we can use 'w' to write in file and change things, 'a' to append in file and so on   
   
-  
+...  
